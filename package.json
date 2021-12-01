@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Andrewy2416/notetaker/issues"
   },
-  "homepage": "https://github.com/Andrewy2416/notetaker#readme"
+  "homepage": "https://github.com/Andrewy2416/notetaker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
