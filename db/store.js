@@ -20,7 +20,7 @@ class Store {
             throw new Error("title and text cannot be blank")
         }
 
-        const newNote = { title, text, id: uuid() }
+        const newNote = { title, text, id: uuid()}
 
         return this.getNotes()
             .then(notes => [...notes, newNote])
